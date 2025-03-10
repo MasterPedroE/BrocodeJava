@@ -8,15 +8,16 @@ public class Pedido {
         int quantidade = 0;
         double precofinal = 0;
 
+
         Scanner pedidos = new Scanner(System.in);
 
-        System.out.println("O que deseja?: ");
+        System.out.print("O que deseja?: ");
         pedido = pedidos.nextLine();
 
-        System.out.println("Qual é o preço que ira pagar por unidade?: ");
+        System.out.print("Qual é o preço que ira pagar por unidade?: ");
         preco = pedidos.nextDouble();
 
-        System.out.println("Quantos deseja?: ");
+        System.out.print("Quantos deseja?: ");
         quantidade = pedidos.nextInt();
 
         precofinal = preco * quantidade;
