@@ -14,6 +14,7 @@ public class Matematica {
         //result = Math.floor(3.99); Arredondar para baixo
         //result = Math.max(10, 20); Maior entre as duas opções
         //result = Math.min(10,20); Menor entre as duas opções
+        //result fds
 
     }
 }
